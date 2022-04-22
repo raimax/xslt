@@ -55,7 +55,74 @@
         margin-top: 10px;
         color: colors.$neutral;
         font-size: 0.95em;
+        display: flex;
+        justify-content: space-between;
       }
     }
   }
+}
+
+.modal {
+  position: fixed;
+  background-color: colors.$white;
+  width: 750px;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-style: dashed;
+
+  .modal_content {
+    padding: 40px;
+    max-height: 800px;
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    .modal_content_title {
+      font-family: fonts.$secondary;
+      text-align: center;
+      text-transform: uppercase;
+      margin: 40px 0;
+    }
+
+    .modal_content_comments {
+      margin-top: 40px;
+
+      .title {
+        color: colors.$neutral;
+      }
+
+      .comment {
+        margin: 10px 0;
+        padding: 5px;
+        border: 1px solid colors.$neutral;
+
+        .comment_header {
+          font-style: italic;
+          color: colors.$neutral;
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+
+  .modal_close {
+    width: 30px;
+    position: absolute;
+    top: 10;
+    right: 10;
+    border-radius: 50%;
+    padding: 5px;
+
+    &:hover {
+      background-color: red;
+    }
+  }
+}
+
+.hide {
+  display: none;
 }
