@@ -55,7 +55,7 @@ public class XslTransformer {
         if (!xslFile.isFile()) throw new FileNotFoundException("Xsl file not found");
 
         StreamSource xmlSource = new StreamSource(xmlFile);
-        FopFactory fopFactory = FopFactory.newInstance(new File(".").toURI());
+        FopFactory fopFactory = FopFactory.newInstance(new File("src/main/resources/pdf").toURI());
         FOUserAgent foUserAgent = fopFactory.newFOUserAgent();
         OutputStream out = new FileOutputStream(outputFilePath);
 

@@ -1,0 +1,40 @@
+@use "fonts";
+@use "colors";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: fonts.$primary;
+  min-height: 100%;
+	background-color: colors.$background;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}

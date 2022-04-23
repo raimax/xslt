@@ -1,0 +1,20 @@
+@use "colors";
+
+.button {
+	cursor: pointer;
+	padding: 10 18px;
+	background-color: transparent;
+  border: 1px solid;
+	font-weight: 600;
+	font-size: 0.9em;
+}
+
+.primary {
+  color: colors.$primary;
+  border-color: colors.$primary;
+
+	&:hover {
+		color: colors.$white;
+		background-color: colors.$primary;
+	}
+}

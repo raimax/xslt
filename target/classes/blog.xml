@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- processing instructions-->
+<?xml-stylesheet href="blog.xsl" type="text/xsl"?>
+<blog>
+    <posts>
+        <post id="1">
+            <title>Tellus molestie nunc</title>
+						<image>images/post1.jpeg</image>
+            <category>lifestyle</category>
+            <author id="1">
+                <username>admin</username>
+                <email>admin@site.com</email>
+                <joinedAt>2022-03-23T14:11:00.870+02:00</joinedAt>
+            </author>
+            <createdAt>2022-03-23</createdAt>
+            <summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat duis ultricies lacus sed. Vel fringilla est ullamcorper eget. Laoreet sit amet cursus sit amet dictum sit amet justo. Lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit amet. Turpis egestas maecenas pharetra convallis. Accumsan sit amet nulla facilisi morbi...</summary>
+            <content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat duis ultricies lacus sed. Vel fringilla est ullamcorper eget. Laoreet sit amet cursus sit amet dictum sit amet justo. Lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit amet. Turpis egestas maecenas pharetra convallis. Accumsan sit amet nulla facilisi morbi. Orci ac auctor augue mauris. Tristique et egestas quis ipsum suspendisse ultrices. Blandit massa enim nec dui. In massa tempor nec feugiat nisl pretium fusce id. Tempus iaculis urna id volutpat lacus laoreet non curabitur. Id nibh tortor id aliquet lectus proin nibh nisl. Vitae semper quis lectus nulla at volutpat diam ut venenatis. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas. Nam libero justo laoreet sit. Purus sit amet volutpat consequat mauris nunc congue nisi vitae. At tempor commodo ullamcorper a lacus vestibulum sed. Etiam erat velit scelerisque in dictum non consectetur a erat. Volutpat lacus laoreet non curabitur gravida arcu ac.</content>
+            <views>132</views>
+            <ratings>
+                <rating>
+                    <user id="1">
+                        <username>admin</username>
+                        <email>admin@site.com</email>
+                        <joinedAt>2022-03-23T14:11:00.873+02:00</joinedAt>
+                    </user>
+                    <isLiked>true</isLiked>
+                </rating>
+                <rating>
+                    <user id="2">
+                        <username>user456</username>
+                        <email>user456@gmail.com</email>
+                        <joinedAt>2022-03-23T14:11:00.874+02:00</joinedAt>
+                    </user>
+                    <isLiked>false</isLiked>
+                </rating>
+                <rating>
+                    <user id="3">
+                        <username>user884</username>
+                        <email>user884@mail.com</email>
+                        <joinedAt>2022-03-23T14:11:00.874+02:00</joinedAt>
+                    </user>
+                    <isLiked>true</isLiked>
+                </rating>
+            </ratings>
+            <comments>
+                <comment id="1">
+                    <author id="1">
+                        <username>admin</username>
+                        <email>admin@site.com</email>
+                        <joinedAt>2022-03-23T14:11:00.873+02:00</joinedAt>
+                    </author>
+                    <createdAt>2022-03-23T14:11:00.873+02:00</createdAt>
+                    <content>This is a comment</content>
+                </comment>
+                <comment id="2">
+                    <author id="2">
+                        <username>user456</username>
+                        <email>user456@gamil.com</email>
+                        <joinedAt>2022-03-23T14:11:00.873+02:00</joinedAt>
+                    </author>
+                    <createdAt>2022-03-23T14:11:00.873+02:00</createdAt>
+                    <content>This is a comment</content>
+                </comment>
+                <comment id="3">
+                    <author id="3">
+                        <username>user884</username>
+                        <email>user884@mail.com</email>
+                        <joinedAt>2022-03-23T14:11:00.873+02:00</joinedAt>
+                    </author>
+                    <createdAt>2022-03-23T14:11:00.873+02:00</createdAt>
+                    <content>This is a comment</content>
+                </comment>
+            </comments>
+            <tags>
+                <tag>tag1</tag>
+                <tag>tag2</tag>
+                <tag>tag3</tag>
+                <tag>tag4</tag>
+                <tag>tag5</tag>
+            </tags>
+        </post>
+        <post id="2">
+            <title>Aenean et tortor at risus</title>
+						<image>images/post2.jpg</image>
+            <category>travel</category>
+            <author id="1">
+                <username>admin</username>
+                <email>admin@site.com</email>
+                <joinedAt>2022-03-23T14:11:00.874+02:00</joinedAt>
+            </author>
+            <createdAt>2022-03-23</createdAt>
+            <summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh sit amet commodo nulla facilisi. Faucibus vitae aliquet nec ullamcorper. Sed velit dignissim sodales ut eu sem integer vitae. Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Sit amet purus gravida quis blandit. Elementum eu facilisis sed odio morbi...</summary>
+            <content>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh sit amet commodo nulla facilisi. Faucibus vitae aliquet nec ullamcorper. Sed velit dignissim sodales ut eu sem integer vitae. Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Sit amet purus gravida quis blandit. Elementum eu facilisis sed odio morbi. Dolor purus non enim praesent elementum facilisis leo. Risus pretium quam vulputate dignissim suspendisse in est. Odio pellentesque diam volutpat commodo sed. Iaculis nunc sed augue lacus viverra vitae congue eu. Eget aliquet nibh praesent tristique magna sit amet purus. Sagittis vitae et leo duis ut diam quam. Non blandit massa enim nec dui nunc mattis enim ut. Est ultricies integer quis auctor elit sed.</content>
+            <views>367</views>
+            <ratings>
+                <rating>
+                    <user id="1">
+                        <username>admin</username>
+                        <email>admin@site.com</email>
+                        <joinedAt>2022-03-23T14:11:00.874+02:00</joinedAt>
+                    </user>
+                    <isLiked>true</isLiked>
+                </rating>
+                <rating>
+                    <user id="2">
+                        <username>user456</username>
+                        <email>user456@gmail.com</email>
+                        <joinedAt>2022-03-23T14:11:00.874+02:00</joinedAt>
+                    </user>
+                    <isLiked>false</isLiked>
+                </rating>
+                <rating>
+                    <user id="3">
+                        <username>user884</username>
+                        <email>user884@mail.com</email>
+                        <joinedAt>2022-03-23T14:11:00.874+02:00</joinedAt>
+                    </user>
+                    <isLiked>true</isLiked>
+                </rating>
+            </ratings>
+            <comments>
+                <comment id="1">
+                    <author id="1">
+                        <username>admin</username>
+                        <email>admin@site.com</email>
+                        <joinedAt>2022-03-23T14:11:00.874+02:00</joinedAt>
+                    </author>
+                    <createdAt>2022-03-23T14:11:00.874+02:00</createdAt>
+                    <content>This is a comment</content>
+                </comment>
+                <comment id="2">
+                    <author id="2">
+                        <username>user456</username>
+                        <email>user456@gamil.com</email>
+                        <joinedAt>2022-03-23T14:11:00.874+02:00</joinedAt>
+                    </author>
+                    <createdAt>2022-03-23T14:11:00.874+02:00</createdAt>
+                    <content>This is a comment</content>
+                </comment>
+                <comment id="3">
+                    <author id="3">
+                        <username>user884</username>
+                        <email>user884@mail.com</email>
+                        <joinedAt>2022-03-23T14:11:00.874+02:00</joinedAt>
+                    </author>
+                    <createdAt>2022-03-23T14:11:00.874+02:00</createdAt>
+                    <content>This is a comment</content>
+                </comment>
+            </comments>
+            <tags>
+                <tag>tag1</tag>
+                <tag>tag2</tag>
+                <tag>tag3</tag>
+                <tag>tag4</tag>
+                <tag>tag5</tag>
+            </tags>
+        </post>
+				<post id="3">
+					<title>Integer vitae justo eget magna</title>
+					<image>images/post3.jpg</image>
+					<category>travel</category>
+					<author id="1">
+							<username>admin</username>
+							<email>admin@site.com</email>
+							<joinedAt>2022-03-23T14:11:00.874+02:00</joinedAt>
+					</author>
+					<createdAt>2022-03-23</createdAt>
+					<summary>Augue ut lectus arcu bibendum. Blandit aliquam etiam erat velit scelerisque in. Blandit aliquam etiam erat velit scelerisque. Nam at lectus urna duis convallis. Tincidunt lobortis feugiat vivamus at augue eget arcu. Sed felis eget velit aliquet sagittis id consectetur. Amet consectetur adipiscing elit duis tristique sollicitudin. Mollis aliquam ut porttitor leo a diam...</summary>
+					<content>Augue ut lectus arcu bibendum. Blandit aliquam etiam erat velit scelerisque in. Blandit aliquam etiam erat velit scelerisque. Nam at lectus urna duis convallis. Tincidunt lobortis feugiat vivamus at augue eget arcu. Sed felis eget velit aliquet sagittis id consectetur. Amet consectetur adipiscing elit duis tristique sollicitudin. Mollis aliquam ut porttitor leo a diam. Vel turpis nunc eget lorem dolor sed viverra. Blandit volutpat maecenas volutpat blandit. Sed augue lacus viverra vitae. Ipsum nunc aliquet bibendum enim facilisis gravida. Nec nam aliquam sem et. Velit laoreet id donec ultrices tincidunt arcu non. Massa ultricies mi quis hendrerit dolor magna eget est. Tincidunt ornare massa eget egestas purus viverra accumsan in. Massa ultricies mi quis hendrerit. Sit amet nisl suscipit adipiscing bibendum est. Arcu odio ut sem nulla pharetra diam sit amet nisl. Egestas sed sed risus pretium quam vulputate dignissim suspendisse.</content>
+					<views>367</views>
+					<ratings>
+							<rating>
+									<user id="1">
+											<username>admin</username>
+											<email>admin@site.com</email>
+											<joinedAt>2022-03-23T14:11:00.874+02:00</joinedAt>
+									</user>
+									<isLiked>true</isLiked>
+							</rating>
+							<rating>
+									<user id="2">
+											<username>user456</username>
+											<email>user456@gmail.com</email>
+											<joinedAt>2022-03-23T14:11:00.874+02:00</joinedAt>
+									</user>
+									<isLiked>false</isLiked>
+							</rating>
+							<rating>
+									<user id="3">
+											<username>user884</username>
+											<email>user884@mail.com</email>
+											<joinedAt>2022-03-23T14:11:00.874+02:00</joinedAt>
+									</user>
+									<isLiked>true</isLiked>
+							</rating>
+					</ratings>
+					<comments>
+							<comment id="1">
+									<author id="1">
+											<username>admin</username>
+											<email>admin@site.com</email>
+											<joinedAt>2022-03-23T14:11:00.874+02:00</joinedAt>
+									</author>
+									<createdAt>2022-03-23T14:11:00.874+02:00</createdAt>
+									<content>This is a comment</content>
+							</comment>
+							<comment id="2">
+									<author id="2">
+											<username>user456</username>
+											<email>user456@gamil.com</email>
+											<joinedAt>2022-03-23T14:11:00.874+02:00</joinedAt>
+									</author>
+									<createdAt>2022-03-23T14:11:00.874+02:00</createdAt>
+									<content>This is a comment</content>
+							</comment>
+							<comment id="3">
+									<author id="3">
+											<username>user884</username>
+											<email>user884@mail.com</email>
+											<joinedAt>2022-03-23T14:11:00.874+02:00</joinedAt>
+									</author>
+									<createdAt>2022-03-23T14:11:00.874+02:00</createdAt>
+									<content>This is a comment</content>
+							</comment>
+					</comments>
+					<tags>
+							<tag>tag1</tag>
+							<tag>tag2</tag>
+							<tag>tag3</tag>
+							<tag>tag4</tag>
+							<tag>tag5</tag>
+					</tags>
+			</post>
+    </posts>
+    <users>
+        <user id="1">
+            <username>admin</username>
+            <email>admin@site.com</email>
+            <joinedAt>2022-03-23T14:11:00.874+02:00</joinedAt>
+        </user>
+        <user id="2">
+            <username>user456</username>
+            <email>user456@gamil.com</email>
+            <joinedAt>2022-03-23T14:11:00.874+02:00</joinedAt>
+        </user>
+        <user id="3">
+            <username>user884</username>
+            <email>user884@mail.com</email>
+            <joinedAt>2022-03-23T14:11:00.874+02:00</joinedAt>
+        </user>
+        <user id="4">
+            <username>john</username>
+            <email>john@site.com</email>
+            <joinedAt>2022-03-23T14:11:00.874+02:00</joinedAt>
+        </user>
+        <user id="5">
+            <username>bob</username>
+            <email>bob@site.com</email>
+            <joinedAt>2022-03-23T14:11:00.874+02:00</joinedAt>
+        </user>
+    </users>
+</blog>
