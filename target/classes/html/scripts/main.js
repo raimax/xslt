@@ -3,13 +3,15 @@ let modal2;
 let modal3;
 
 window.onload = () => {
+  console.log("script loaded");
   modal1 = document.getElementById("modal1");
   modal2 = document.getElementById("modal2");
   modal3 = document.getElementById("modal3");
   let continueReadingButtons = document.querySelectorAll("[data-id]");
-	let articleCloseButtons = document.querySelectorAll("[data-close-id]");
+  let articleCloseButtons = document.querySelectorAll("[data-close-id]");
 
   continueReadingButtons.forEach((button) => {
+    console.log(getDataValue(button));
     if (getDataValue(button) == 1) {
       button.addEventListener("click", button1);
     } else if (getDataValue(button) == 2) {
@@ -19,7 +21,7 @@ window.onload = () => {
     }
   });
 
-	articleCloseButtons.forEach((button) => {
+  articleCloseButtons.forEach((button) => {
     if (getDataValue(button) == 1) {
       button.addEventListener("click", closeButton1);
     } else if (getDataValue(button) == 2) {
@@ -67,5 +69,5 @@ function closeButton3() {
 }
 
 function getDataValue(button) {
-  return button.attributes[1].value;
+  return button.attributes[0].value;
 }

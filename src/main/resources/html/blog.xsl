@@ -10,7 +10,7 @@
 			<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400" rel="stylesheet" />
 			<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700" rel="stylesheet" />
 			<link rel="stylesheet" href="styles/style.css" />
-			<script src="/scripts/main.js"></script>
+			<script src="scripts/main.js"></script>
 		</head>
 
 		<body>
@@ -42,7 +42,7 @@
 								</xsl:for-each>
 							</div>
 						</div>
-						<img class="modal_close" data-close-id="{@id}" src="/images/close.png" alt="close" />
+						<img class="modal_close"  src="images/close.png" alt="close" data-close-id="{@id}" />
 					</div>
 					<div class="post_card">
 						<img class="post_card_image" src="{image}" alt="post_image" />

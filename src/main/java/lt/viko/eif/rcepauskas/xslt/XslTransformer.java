@@ -6,11 +6,7 @@ import org.apache.fop.apps.Fop;
 import org.apache.fop.apps.FopFactory;
 import org.apache.fop.apps.MimeConstants;
 
-import javax.xml.transform.Result;
-import javax.xml.transform.Source;
-import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerException;
-import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.*;
 import javax.xml.transform.sax.SAXResult;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
@@ -41,6 +37,7 @@ public class XslTransformer {
         if (!xslFile.isFile()) throw new FileNotFoundException("Xsl file not found");
 
         TransformerFactory factory = TransformerFactory.newInstance();
+
         Source xslt = new StreamSource(new File(xslFilePath));
         Transformer transformer = factory.newTransformer(xslt);
         Source text = new StreamSource(new File(xmlFilePath));
